@@ -66,6 +66,30 @@ nav {
 	background: #ccc;
 }
 
+.feature {
+	position: absolute;
+}
+
+.one {
+	top: 450px;
+	right: 50px;
+}
+
+.two {
+	top: 150px;
+	left: 350px;
+}
+
+.three {
+	bottom: 4590px;
+	left: 50px;
+}
+
+.four {
+	bottom: 150px;
+	right: 350px;
+}
+
 .icons {
 	color: #000;
 	font-size: 40px;
