@@ -14,7 +14,7 @@
 }
 
 h1 {
-	color: pink;
+	color: #000;
 }
 
 nav {
@@ -81,7 +81,7 @@ nav {
 }
 
 .three {
-	bottom: 4590px;
+	bottom: 450px;
 	left: 50px;
 }
 
@@ -91,6 +91,6 @@ nav {
 }
 
 .icons {
-	color: #000;
-	font-size: 40px;
+	color: #fff;
+	font-size: 60px;
 }
