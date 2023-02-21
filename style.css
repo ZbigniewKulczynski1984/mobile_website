@@ -13,9 +13,6 @@
 	background: linear-gradient(to right, #9c27b0, #8ecdff);
 }
 
-h1 {
-	color: #000;
-}
 
 nav {
 	width: 80%;
@@ -53,6 +50,7 @@ nav {
 	position: absolute;
 	top: 50%;
 	left: -10%;
+	padding: 10px;
 	transform: translateY(-50%);
 }
 
@@ -68,6 +66,16 @@ nav {
 
 .feature {
 	position: absolute;
+	display: flex;
+	color: #fff;
+}
+
+.feature div {
+	margin-left: 20px;
+}
+
+.feature div p {
+	margin-top: 8px;
 }
 
 .one {
@@ -93,4 +101,20 @@ nav {
 .icons {
 	color: #fff;
 	font-size: 60px;
+}
+
+.mobile {
+	width: 200px;
+	position: absolute;
+	top: 50%;
+	left: 35%;
+	transform: translateY(-50%);
+	z-index: 1;
+}
+
+.controls {
+	position: absolute;
+	right: 10%;
+	top: 50%;
+	transform: translateY(-50%);
 }
